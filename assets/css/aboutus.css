@@ -1,0 +1,785 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+header {
+    background-color: violet;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+#first_sect {
+    margin-top: 131px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.who_we_are_text {
+    display: inline-block;
+    font-size: 18px;
+    position: relative;
+}
+
+.who_we_are_text::before {
+    content: " ";
+    width: 58px;
+    height: 1px;
+    position: absolute;
+    right: -64px;
+    top: 14px;
+    background-color: #FA6400;
+}
+
+#about_text {
+    display: flex;
+}
+
+#about_h1 {
+    width: 90%;
+    font-size: 80px;
+    font-weight: normal;
+    line-height: 113px;
+}
+
+#text_near_about {
+    margin-top: 37px;
+    font-size: 14px;
+    width: 60%;
+    line-height: 24px;
+}
+
+#background_foto {
+    margin-top: 65px;
+    width: 100%;
+    height: 576px;
+    background-image: url("https://konstruktion.vamtam.com/wp-content/uploads/2022/11/pexels-chen-yang-10987834.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#second_sect {
+    background-color: #F9F9F9;
+    margin-bottom: 140px;
+    padding: 105px 30px;
+}
+
+#our_focus {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#out_focus_text {
+    display: inline-block;
+    font-size: 18px;
+    position: relative;
+}
+
+#out_focus_text::before {
+    content: " ";
+    width: 58px;
+    height: 1px;
+    position: absolute;
+    right: -64px;
+    top: 14px;
+    background-color: #FA6400;
+}
+
+#text_under_focus {
+    font-size: 64px;
+    font-weight: normal;
+    line-height: 70px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#our_history {
+    display: flex;
+    gap: 181px;
+}
+
+.column_img_text {
+    width: 43%;
+}
+
+#problem_solvers {
+    width: 105%;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 38px;
+    margin-top: 20px;
+}
+
+#img_section {
+    width: 92%;
+    height: 673px;
+    margin-top: 65px;
+}
+
+.img_third_section {
+    width: 100%;
+    height: 100%;
+}
+
+.our_history_text {
+    width: 96%;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.our_history_button {
+    width: 30%;
+    height: 50px;
+    border-radius: 0px;
+    color: white;
+    background-color: black;
+    border-color: #0A0909;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 45px;
+    font-family: 'Archivo', sans-serif;
+    transition: 0.3s;
+}
+
+.our_history_button:hover {
+    background-color: white;
+    color: black;
+}
+
+#second_img_section {
+    width: 100%;
+    margin-top: 90px;
+}
+
+#fourth_sect {
+    margin-top: 150px;
+}
+
+#new_york {
+    width: 50%;
+    margin-top: 15px;
+}
+
+#commited_to {
+    font-size: 32px;
+    font-weight: normal;
+    width: 100%;
+    line-height: 35px;
+}
+
+#flex_new_york {
+    display: flex;
+    gap: 390px;
+}
+
+#right_new_york {
+    width: 64%;
+}
+
+#text_right_new_york {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#background_foto_container {
+    margin-top: 50px;
+    width: 100%;
+    height: 437px;
+    background-image: url("https://konstruktion.vamtam.com/wp-content/uploads/2022/11/pexels-samson-katt-5225234.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#we_never_stop {
+    width: 45%;
+    font-size: 64px;
+    font-weight: normal;
+    line-height: 70px;
+    margin-top: 20px;
+}
+
+#fifth_sect {
+    background-color: #F9F9F9;
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+
+#safety_purpose_position {
+    margin-top: 80px;
+    display: flex;
+    gap: 170px;
+}
+
+.box {
+    width: 25%;
+}
+
+#safety_link {
+    display: inline-block;
+    font-size: 24px;
+    margin-top: 10px;
+    color: black;
+    font-weight: 400;
+}
+
+#under_safety {
+    font-size: 14px;
+    line-height: 23px;
+    margin-top: 20px;
+}
+
+#sixth_sect {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+#meet_leadership_text {
+    font-size: 64px;
+    font-weight: normal;
+    line-height: 68px;
+}
+
+#about_leadership {
+    width: 100%;
+    display: flex;
+}
+
+#left_side {
+    width: 41%;
+    margin-top: 60px;
+}
+
+.learn_more {
+    width: 43%;
+}
+
+.learn_more:hover {
+    background-color: white;
+    color: black;
+}
+
+.link_for_leadership {
+    width: 50%;
+}
+
+.img_leadership {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+#right_side {
+    width: 70%;
+    height: 532px;
+}
+
+.img_in_swiper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.name_swiper {
+    font-size: 32px;
+    color: black;
+    font-weight: normal;
+}
+
+.swiper-slide {
+    background: #fff;
+    display: flex;
+    gap: 30px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#right_side:hover .img_leadership {
+    transform: scale(1.2);
+}
+
+.text_in_swiper {
+    width: 33%;
+    margin-top: 110px;
+}
+
+.text_under_name {
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 24px;
+}
+
+#seventh_sect {
+    margin-top: 30px;
+    height: 460px;
+    background-image: url("https://konstruktion.vamtam.com/wp-content/uploads/2022/10/GettyImages-1313854425.jpg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#seventh_sect::after {
+    content: " ";
+    width: 100%;
+    height: 5px;
+    background-color: #FA6400;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#black_div {
+    padding-top: 110px;
+}
+
+.text_black_div {
+    color: white;
+    display: block;
+    font-size: 60px;
+    line-height: 65px;
+}
+
+.buttons_black_div {
+    width: 43%;
+    margin-top: 36px;
+    display: flex;
+    gap: 10px;
+}
+
+.link_button {
+    width: 47%;
+    background-color: #1c1a1a;
+    transition: 0.4s;
+}
+
+.text_buttons {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Archivo', sans-serif;
+    background: no-repeat 0 100%;
+    background-image: linear-gradient(white, white);
+    background-size: 0% 1px;
+    transition: background-size .5s ease;
+}
+
+.button_black_div {
+    color: white;
+    border: none;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    transition: 0.4s;
+}
+
+.button_black_div:hover {
+    background-color: #FA6400;
+}
+
+.text_buttons:hover,
+.text_buttons:focus {
+    background-size: 100% 1px;
+}
+
+footer {
+    height: 470px;
+}
+
+#boxes_in_footer {
+    margin-top: 150px;
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    width: 100%;
+}
+
+.img_box_in_footer {
+    display: block;
+}
+
+.box_in_footer {
+    width: 49%;
+    display: inline-block;
+}
+
+#img_in_box_footer {
+    height: 91%;
+    display: flex;
+    align-items: end;
+}
+
+.cities {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 6em;
+    letter-spacing: 0;
+    word-spacing: 0;
+}
+
+.span_for_footer_first {
+    display: inline-block;
+    margin: 0 0 1em;
+    font-size: 12px;
+    width: 175px;
+}
+
+.link_footer_first {
+    display: inline-block;
+    margin: 0 0 1em;
+    font-size: 12px;
+    width: 112px;
+    color: black;
+    transition: .3s;
+}
+
+.link_footer_first:hover {
+    color: #FA6400;
+}
+
+#links_footer {
+    display: flex;
+    width: 100%;
+    gap: 80px;
+}
+
+.big {
+    width: 75% !important;
+}
+
+.link_footer_second {
+    width: 45%
+}
+
+.end_of_footer {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 2em;
+    letter-spacing: .5px;
+    background-color: #02010100;
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-radius: 0 0 0 0;
+    padding: 0 100px 12px 0;
+    border-color: #CCCCCC;
+    transition: .3s;
+    background: no-repeat 0 100%;
+    background-image: linear-gradient(white, white);
+    background-size: 0% 1px;
+    transition: background-size .5s ease;
+}
+
+.end_of_footer:hover,
+.end_of_footer a:hover {
+    color: #FA6400;
+    border-color: #FA6400;
+}
+
+.link {
+    display: inline-block;
+    color: black;
+    height: 40px;
+    width: 30%;
+    transition: .3s;
+}
+
+#additional_links {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second {
+    display: flex;
+    gap: 40px;
+}
+
+.third {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.column_boxes {
+    width: 40%;
+    margin-left: 60px;
+}
+
+.column_link {
+    margin-top: 100px;
+    width: 50%;
+    display: flex;
+    gap: 40px;
+}
+
+#additional_links span {
+    font-size: 12px;
+    background: no-repeat 0 100%;
+    background-image: linear-gradient(#FA6400, #FA6400);
+    background-size: 0% 2px;
+    transition: background-size .5s ease;
+}
+
+#additional_links span:hover,
+#additional_links span:focus {
+    background-size: 100% 1px;
+    color: #FA6400;
+}
+
+.inline {
+    display: inline-block;
+}
+
+@media screen and (max-width:1280px) {
+    .container {
+        max-width: 1000px;
+    }
+    #our_history {
+        display: flex;
+        gap: 71px;
+    }
+    .column_img_text {
+        width: 50%;
+    }
+    #img_section {
+        width: 100%;
+        height: 563px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .container {
+        max-width: 768px;
+    }
+    #about_text {
+        display: flex;
+        flex-direction: column;
+    }
+    #text_near_about {
+        margin-top: 7px;
+        width: 100%;
+    }
+    #about_h1 {
+        font-size: 45px;
+        line-height: 63px;
+    }
+    #background_foto {
+        height: 192px;
+    }
+    #text_under_focus {
+        font-size: 35px;
+        line-height: 40px;
+        width: 100%;
+    }
+    #second_section {
+        margin-bottom: 100px;
+        padding: 100px 30px;
+    }
+    #our_focus {
+        width: 100%;
+    }
+    #our_history {
+        display: flex;
+        gap: 31px;
+    }
+    #problem_solvers {
+        width: 100%;
+        font-size: 22px;
+        line-height: 32px;
+        margin-top: 20px;
+    }
+    #img_section {
+        width: 100%;
+    }
+    #our_history_button {
+        width: 34%;
+    }
+    #flex_new_york {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    #new_york {
+        width: 100%;
+        margin-top: 15px;
+    }
+    #right_new_york {
+        width: 100%;
+    }
+    #we_never_stop {
+        width: 50%;
+        font-size: 32px;
+        line-height: 35px;
+    }
+    #safety_purpose_position {
+        margin-top: 37px;
+        gap: 15px;
+    }
+    .box {
+        width: 36%;
+    }
+    #meet_leadership_text {
+        font-size: 32px;
+    }
+    #left_side {
+        width: 36%;
+        margin-top: 0px;
+    }
+    #right_side {
+        width: 64%;
+        height: 342px;
+    }
+    .name_swiper {
+        font-size: 22px;
+    }
+    .text_in_swiper {
+        width: 43%;
+        margin-top: 30px;
+    }
+    .swiper-slide {
+        gap: 15px;
+    }
+    .link_for_leadership {
+        width: 57%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        max-width: 500px;
+    }
+    #second_section {
+        margin-bottom: 60px;
+        padding: 55px 20px;
+    }
+    #text_under_focus {
+        font-size: 40px;
+        line-height: 40px;
+        width: 100%;
+    }
+    #our_history {
+        display: flex;
+        flex-direction: column;
+    }
+    .column_img_text {
+        width: 100%;
+    }
+    #problem_solvers {
+        width: 100%;
+        font-size: 28px;
+        line-height: 32px;
+        margin-top: 20px;
+    }
+    #img_section {
+        width: 100%;
+        height: 100%;
+    }
+    #our_history_button {
+        width: 34%;
+    }
+    #background_foto_container {
+        margin-top: 50px;
+        height: 197px;
+    }
+    #safety_purpose_position {
+        margin-top: 37px;
+        gap: 15px;
+        flex-direction: column;
+    }
+    .box {
+        width: 100%;
+        margin-top: 15px;
+    }
+    #we_never_stop {
+        width: 100%;
+        font-size: 32px;
+        line-height: 35px;
+    }
+    #under_safety {
+        font-size: 14px;
+        line-height: 23px;
+        margin-top: 5px;
+    }
+    #about_leadership {
+        flex-direction: column;
+    }
+    #left_side {
+        width: 70%;
+        margin-top: 0px;
+    }
+    .learn_more {
+        width: 43%;
+        margin-top: 20px;
+    }
+    #right_side {
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+    }
+    .swiper-backface-hidden .swiper-slide {
+        flex-direction: column;
+    }
+    .text_in_swiper {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .link_for_leadership {
+        width: 100%;
+    }
+    #second_sect {
+        background-color: #F9F9F9;
+        margin-bottom: 60px;
+        padding: 57px 30px;
+    }
+    #second_img_section {
+        margin-top: 20px;
+    }
+    .our_history_button {
+        margin-top: 25px;
+    }
+    #fifth_sect {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #sixth_sect {
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .container {
+        max-width: 300px;
+    }
+    #our_history_button {
+        width: 40%;
+    }
+}

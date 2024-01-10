@@ -14,6 +14,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 9999;
 }
 
 #first_section {
@@ -142,13 +143,13 @@ header {
 
 #all_boxes {
     display: flex;
-    gap: 60px;
+    gap: 121px;
     margin-top: 60px;
     flex-wrap: wrap;
 }
 
 .boxes {
-    width: 30%;
+    width: 27%;
     height: 100%;
 }
 
@@ -212,10 +213,10 @@ header {
 
 #third_section {
     margin-top: 30px;
-    height: 440px;
+    height: 460px;
     background-image: url("https://konstruktion.vamtam.com/wp-content/uploads/2022/10/GettyImages-1313854425.jpg");
+    background-position: bottom center;
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
     position: relative;
 }
@@ -231,18 +232,19 @@ header {
 }
 
 #black_div {
-    padding-top: 70px;
+    padding-top: 110px;
 }
 
 .text_black_div {
     color: white;
     display: block;
     font-size: 60px;
+    line-height: 65px;
 }
 
 .buttons_black_div {
     width: 43%;
-    margin-top: 26px;
+    margin-top: 36px;
     display: flex;
     gap: 10px;
 }
@@ -424,12 +426,13 @@ footer {
     background: no-repeat 0 100%;
     background-image: linear-gradient(#FA6400, #FA6400);
     background-size: 0% 2px;
-    transition: background-size .1s ease;
+    transition: background-size .5s ease;
 }
 
 #additional_links span:hover,
 #additional_links span:focus {
     background-size: 100% 1px;
+    color: #FA6400;
 }
 
 .inline {
@@ -442,10 +445,7 @@ footer {
         width: 100%;
     }
     #all_boxes {
-        gap: 50px;
-    }
-    .boxes {
-        width: 30%;
+        gap: 95px
     }
     .container {
         max-width: 1000px;
@@ -508,13 +508,16 @@ footer {
         height: 60px;
     }
     #all_boxes {
-        gap: 37px;
+        gap: 72px;
     }
     .text_black_div {
         font-size: 34px;
     }
     .container {
         max-width: 768px;
+    }
+    .buttons_black_div {
+        margin-top: 3px;
     }
 }
 

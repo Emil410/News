@@ -1,0 +1,905 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+header {
+    background-color: blueviolet;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.span_with_line {
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    margin-top: 132px;
+    font-weight: normal;
+}
+
+.span_with_line::before {
+    content: " ";
+    width: 58px;
+    height: 1px;
+    position: absolute;
+    right: -64px;
+    top: 14px;
+    background-color: #FA6400;
+}
+
+.flexed {
+    display: flex;
+    gap: 380px;
+}
+
+.left_div_in_flexed {
+    width: 31%;
+}
+
+.right_div_in_flexed {
+    width: 40%;
+}
+
+.text_left_div {
+    width: 90%;
+    font-size: 80px;
+    font-weight: normal;
+    line-height: 113px;
+}
+
+.text_right_div {
+    margin-top: 30px;
+    font-size: 14px;
+    width: 100%;
+    line-height: 24px;
+}
+
+#background_img_vision {
+    background-image: url("https://konstruktion.vamtam.com/wp-content/uploads/2022/11/pexels-geraldine-tay-1619660.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 581px;
+    margin-top: 53px;
+}
+
+#text_in_gap_center {
+    font-size: 64px;
+    font-weight: normal;
+    line-height: 70px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#section_with_padding {
+    background-color: #F9F9F9;
+    margin-bottom: 140px;
+    padding: 0px 0px 90px;
+}
+
+#gap_center {
+    width: 65%;
+    margin: 0 auto;
+}
+
+#not_scrolled {
+    background-image: url("https://konstruktion.vamtam.com/wp-content/uploads/2022/11/pexels-lucky-5374862.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#with_scroll {
+    position: relative;
+}
+
+#scrolled {
+    width: 40%;
+}
+
+#with_scroll .container {
+    height: 100%;
+    display: flex;
+    gap: 124px;
+}
+
+.big_text_near_scroll {
+    font-size: 64px;
+    font-weight: normal;
+    line-height: 1.1em;
+}
+
+.text_in_scroll {
+    margin-top: 320px;
+    padding-bottom: 150px;
+}
+
+#scrolled {
+    display: flex;
+    flex-direction: column;
+}
+
+.little_text_near_scroll {
+    margin-top: 35px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.text_under_line {
+    font-size: 64px;
+    font-weight: normal;
+    line-height: 1.1em;
+}
+
+#under_scroll {
+    background-color: #F9F9F9;
+    margin-top: 130px;
+    height: 800px;
+}
+
+.text_under_line {
+    width: 45%;
+    font-size: 64px;
+    font-weight: normal;
+    line-height: 70px;
+    margin-top: 20px;
+}
+
+#safety_purpose_position {
+    margin-top: 80px;
+    display: flex;
+    gap: 170px;
+}
+
+.box {
+    width: 25%;
+    height: 100%;
+}
+
+.safety_link {
+    display: inline-block;
+    font-size: 24px;
+    margin-top: 10px;
+    color: black;
+    font-weight: 400;
+}
+
+.under_safety {
+    font-size: 14px;
+    line-height: 23px;
+    margin-top: 20px;
+}
+
+.click_for_more {
+    display: inline-block;
+    font-size: 14px;
+    color: black;
+    transition: 0.3s;
+    margin-top: 15px;
+}
+
+.click_for_more:hover {
+    color: #FA6400;
+}
+
+#first_safety {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#clicking_for_more_text {
+    display: flex;
+    gap: 405px;
+}
+
+#passion_integrity {
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin-top: 22px;
+}
+
+#background_img_second {
+    margin-top: 50px;
+    background-image: url("https://konstruktion.vamtam.com/wp-content/uploads/2022/11/pexels-tima-miroshnichenko-5439166.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+}
+
+#sixth_sect {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+#meet_leadership_text {
+    font-size: 64px;
+    font-weight: normal;
+    line-height: 68px;
+}
+
+#about_leadership {
+    width: 100%;
+    display: flex;
+}
+
+#left_side {
+    width: 41%;
+    margin-top: 60px;
+}
+
+.learn_more {
+    width: 43%;
+}
+
+.learn_more:hover {
+    background-color: white;
+    color: black;
+}
+
+.link_for_leadership {
+    width: 50%;
+}
+
+.img_leadership {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+#right_side {
+    width: 70%;
+    height: 532px;
+}
+
+.img_in_swiper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.name_swiper {
+    font-size: 32px;
+    color: black;
+    font-weight: normal;
+}
+
+.swiper-slide {
+    background: #fff;
+    display: flex;
+    gap: 30px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#right_side:hover .img_leadership {
+    transform: scale(1.2);
+}
+
+.text_in_swiper {
+    width: 33%;
+    margin-top: 110px;
+}
+
+.text_under_name {
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 24px;
+}
+
+.our_history_button {
+    width: 150px;
+    height: 50px;
+    border-radius: 0px;
+    color: white;
+    background-color: black;
+    border-color: #0A0909;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 45px;
+    font-family: 'Archivo', sans-serif;
+    transition: 0.3s;
+}
+
+#section_with_swiper {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+#seventh_sect {
+    margin-top: 30px;
+    height: 460px;
+    background-image: url("https://konstruktion.vamtam.com/wp-content/uploads/2022/10/GettyImages-1313854425.jpg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#seventh_sect::after {
+    content: " ";
+    width: 100%;
+    height: 5px;
+    background-color: #FA6400;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#black_div {
+    padding-top: 110px;
+}
+
+.text_black_div {
+    color: white;
+    display: block;
+    font-size: 60px;
+    line-height: 65px;
+}
+
+.buttons_black_div {
+    width: 43%;
+    margin-top: 36px;
+    display: flex;
+    gap: 10px;
+}
+
+.link_button {
+    width: 47%;
+    background-color: #1c1a1a;
+    transition: 0.4s;
+}
+
+.text_buttons {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Archivo', sans-serif;
+    background: no-repeat 0 100%;
+    background-image: linear-gradient(white, white);
+    background-size: 0% 1px;
+    transition: background-size .5s ease;
+}
+
+.button_black_div {
+    color: white;
+    border: none;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    transition: 0.4s;
+}
+
+.button_black_div:hover {
+    background-color: #FA6400;
+}
+
+.text_buttons:hover,
+.text_buttons:focus {
+    background-size: 100% 1px;
+}
+
+footer {
+    height: 470px;
+}
+
+#boxes_in_footer {
+    margin-top: 150px;
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    width: 100%;
+}
+
+.img_box_in_footer {
+    display: block;
+}
+
+.box_in_footer {
+    width: 49%;
+    display: inline-block;
+}
+
+#img_in_box_footer {
+    height: 91%;
+    display: flex;
+    align-items: end;
+}
+
+.cities {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 6em;
+    letter-spacing: 0;
+    word-spacing: 0;
+}
+
+.span_for_footer_first {
+    display: inline-block;
+    margin: 0 0 1em;
+    font-size: 12px;
+    width: 175px;
+}
+
+.link_footer_first {
+    display: inline-block;
+    margin: 0 0 1em;
+    font-size: 12px;
+    width: 112px;
+    color: black;
+    transition: .3s;
+}
+
+.link_footer_first:hover {
+    color: #FA6400;
+}
+
+#links_footer {
+    display: flex;
+    width: 100%;
+    gap: 80px;
+}
+
+.big {
+    width: 75% !important;
+}
+
+.link_footer_second {
+    width: 45%
+}
+
+.end_of_footer {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 2em;
+    letter-spacing: .5px;
+    background-color: #02010100;
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-radius: 0 0 0 0;
+    padding: 0 100px 12px 0;
+    border-color: #CCCCCC;
+    transition: .3s;
+    background: no-repeat 0 100%;
+    background-image: linear-gradient(white, white);
+    background-size: 0% 1px;
+    transition: background-size .5s ease;
+}
+
+.end_of_footer:hover,
+.end_of_footer a:hover {
+    color: #FA6400;
+    border-color: #FA6400;
+}
+
+.link {
+    display: inline-block;
+    color: black;
+    height: 40px;
+    width: 30%;
+    transition: .3s;
+}
+
+#additional_links {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second {
+    display: flex;
+    gap: 40px;
+}
+
+.third {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.not_none {
+    display: none;
+}
+
+.column_boxes {
+    width: 40%;
+    margin-left: 60px;
+}
+
+.column_link {
+    margin-top: 100px;
+    width: 50%;
+    display: flex;
+    gap: 40px;
+}
+
+#additional_links span {
+    font-size: 12px;
+    background: no-repeat 0 100%;
+    background-image: linear-gradient(#FA6400, #FA6400);
+    background-size: 0% 2px;
+    transition: background-size .5s ease;
+}
+
+#additional_links span:hover,
+#additional_links span:focus {
+    background-size: 100% 1px;
+    color: #FA6400;
+}
+
+.inline {
+    display: inline-block;
+}
+
+@media screen and (max-width:1280px) {
+    .container {
+        max-width: 1000px;
+    }
+    .flexed {
+        gap: 170px;
+    }
+    .left_div_in_flexed {
+        width: 44%;
+    }
+    .right_div_in_flexed {
+        width: 46%;
+    }
+    #clicking_for_more_text {
+        gap: 313px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    #links_footer {
+        display: flex;
+        width: 100%;
+        gap: 50px;
+    }
+    .column_link {
+        margin-top: 100px;
+        width: 29%;
+        display: flex;
+        gap: 42px;
+    }
+    .container {
+        max-width: 768px;
+    }
+    #our_history_button {
+        width: 34%;
+    }
+    #safety_purpose_position {
+        margin-top: 37px;
+        gap: 15px;
+    }
+    .box {
+        width: 36%;
+    }
+    #meet_leadership_text {
+        font-size: 32px;
+        line-height: 45px;
+    }
+    .name_swiper {
+        font-size: 22px;
+    }
+    .text_in_swiper {
+        width: 43%;
+        margin-top: 30px;
+    }
+    .swiper-slide {
+        gap: 15px;
+    }
+    .link_for_leadership {
+        width: 57%;
+    }
+    .link_footer_second {
+        width: 31%;
+    }
+    .end_of_footer {
+        padding: 0 85px 12px 0;
+    }
+    .third {
+        width: 216px;
+    }
+    #boxes_in_footer {
+        display: block;
+    }
+    .box_in_footer {
+        display: inline-block;
+        width: 49%;
+    }
+    .column_boxes {
+        width: 49%;
+        display: inline-block;
+        margin-left: 0px;
+    }
+    .buttons_black_div {
+        width: 70%;
+    }
+    .text_black_div {
+        font-size: 34px;
+    }
+    .flexed {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .text_left_div {
+        font-size: 41px;
+        line-height: 73px;
+    }
+    .right_div_in_flexed {
+        width: 100%;
+    }
+    .text_right_div {
+        margin-top: 0px;
+    }
+    #gap_center {
+        width: 100%;
+    }
+    #text_in_gap_center {
+        font-size: 35px;
+        line-height: 40px;
+        width: 100%;
+    }
+    .big_text_near_scroll {
+        font-size: 32px;
+    }
+    #with_scroll .container {
+        gap: 24px;
+    }
+    #scrolled {
+        width: 49%;
+    }
+    .little_text_near_scroll {
+        margin-top: 22px;
+    }
+    .text_under_line {
+        width: 45%;
+        font-size: 32px;
+        line-height: 40px;
+    }
+    #clicking_for_more_text {
+        display: flex;
+        gap: 182px;
+    }
+    .left_div_in_flexed {
+        width: 100%;
+    }
+    #passion_integrity {
+        font-size: 22px;
+        line-height: 1.2em;
+        margin-top: 15px;
+    }
+    #left_side {
+        width: 36%;
+        margin-top: 0px;
+    }
+    #right_side {
+        width: 64%;
+        height: 342px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        max-width: 500px;
+    }
+    #our_history_button {
+        width: 34%;
+    }
+    #safety_purpose_position {
+        margin-top: 37px;
+        gap: 15px;
+        flex-direction: column;
+    }
+    .box {
+        width: 100%;
+        margin-top: 15px;
+    }
+    #under_safety {
+        font-size: 14px;
+        line-height: 23px;
+        margin-top: 5px;
+    }
+    #about_leadership {
+        flex-direction: column;
+    }
+    .learn_more {
+        width: 43%;
+        margin-top: 20px;
+    }
+    .swiper-backface-hidden .swiper-slide {
+        flex-direction: column;
+    }
+    .text_in_swiper {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .link_for_leadership {
+        width: 100%;
+    }
+    .column_link {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 40px;
+    }
+    #additional_links {
+        flex-direction: column-reverse;
+        margin-top: 0px;
+    }
+    #links_footer {
+        height: 250px;
+    }
+    .box_in_footer {
+        width: 50%;
+    }
+    .end_of_footer {
+        padding: 0 65px 9px 0;
+    }
+    .link_footer_second {
+        width: 60%;
+    }
+    .link_button {
+        width: 100%;
+    }
+    .buttons_black_div {
+        width: 100%;
+        gap: 5px;
+    }
+    .button_black_div {
+        font-size: 12px;
+    }
+    #with_scroll .container {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    #not_scrolled {
+        position: static;
+        width: 100%;
+    }
+    #scrolled {
+        width: 100%;
+    }
+    .text_in_scroll {
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+    .big_text_near_scroll {
+        font-size: 35px;
+    }
+    .little_text_near_scroll {
+        margin-top: 12px;
+    }
+    #safety_purpose_position {
+        flex-direction: column;
+        margin-top: 37px;
+        gap: 15px;
+    }
+    .text_under_line {
+        width: 100%;
+        font-size: 32px;
+        line-height: 40px;
+    }
+    #under_scroll {
+        margin-top: 30px;
+        height: 950px;
+    }
+    .span_with_line {
+        margin-top: 93px;
+    }
+    #safety_purpose_position {
+        margin-top: 0px;
+    }
+    .click_for_more {
+        display: none;
+    }
+    .not_none {
+        display: inline-block;
+    }
+    #left_side {
+        width: 100%;
+        margin-top: 10px;
+    }
+    #section_with_swiper {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    #right_side {
+        width: 100%;
+        height: 835px;
+        margin-top: 20px;
+    }
+    .swiper-slide {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .container {
+        max-width: 300px;
+    }
+    #our_history_button {
+        width: 40%;
+    }
+    .box_in_footer {
+        width: 100%;
+    }
+    .span_for_footer_first {
+        width: 142px;
+    }
+    .cities {
+        line-height: 3em;
+    }
+    .end_of_footer {
+        font-size: 16px;
+    }
+    #links_footer {
+        display: flex;
+        width: 100%;
+        gap: 20px;
+    }
+    .link_footer_second {
+        width: 100%;
+    }
+    .margin {
+        margin-bottom: 18px;
+    }
+    .text_black_div {
+        font-size: 40px;
+    }
+    .link_button {
+        width: 90%;
+    }
+    .buttons_black_div {
+        flex-direction: column;
+        width: 100%;
+    }
+    #under_scroll {
+        margin-top: 30px;
+        height: 990px;
+    }
+    #right_side {
+        width: 100%;
+        height: 605px;
+        margin-top: 20px;
+    }
+    #seventh_sect {
+        margin-top: 0px;
+    }
+}

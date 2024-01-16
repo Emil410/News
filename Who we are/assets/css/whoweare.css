@@ -227,7 +227,7 @@ header {
     width: 25%;
 }
 
-#safety_link {
+.safety_link {
     display: inline-block;
     font-size: 24px;
     margin-top: 10px;
@@ -235,7 +235,7 @@ header {
     font-weight: 400;
 }
 
-#under_safety {
+.under_safety {
     font-size: 14px;
     line-height: 23px;
     margin-top: 20px;
@@ -576,6 +576,72 @@ footer {
 }
 
 @media screen and (max-width:1000px) {
+    #span_news {
+        margin-top: 0px;
+        width: 100%;
+    }
+    .big {
+        width: 50% !important;
+    }
+    .link_footer_second {
+        width: 31%;
+    }
+    .end_of_footer {
+        padding: 0 85px 12px 0;
+    }
+    .little {
+        width: 40% !important;
+    }
+    .third {
+        width: 216px;
+    }
+    #boxes_in_footer {
+        display: block;
+    }
+    .box_in_footer {
+        display: inline-block;
+        width: 49%;
+    }
+    #third_section {
+        height: 340px;
+    }
+    .column_boxes {
+        width: 49%;
+        display: inline-block;
+        margin-left: 0px;
+    }
+    .abouts_h {
+        font-size: 25px;
+    }
+    #h_news {
+        font-size: 45px;
+    }
+    #about_news {
+        flex-direction: column;
+    }
+    #text_first_div {
+        padding: 70px 20px 100px;
+    }
+    .buttons_black_div {
+        width: 70%;
+    }
+    #link_h {
+        display: inline-block;
+        font-size: 22px;
+        height: 60px;
+    }
+    #all_boxes {
+        gap: 72px;
+    }
+    .text_black_div {
+        font-size: 34px;
+    }
+    .container {
+        max-width: 768px;
+    }
+    .buttons_black_div {
+        margin-top: 3px;
+    }
     .container {
         max-width: 768px;
     }
@@ -673,6 +739,67 @@ footer {
 }
 
 @media screen and (max-width:768px) {
+    #first_div_under_news {
+        flex-direction: column-reverse;
+    }
+    .column_link {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 40px;
+    }
+    #additional_links {
+        flex-direction: column-reverse;
+    }
+    #links_footer {
+        height: 250px;
+    }
+    #additional_links {
+        margin-top: 0px;
+    }
+    .box_in_footer {
+        width: 50%;
+    }
+    .end_of_footer {
+        padding: 0 65px 9px 0;
+    }
+    .link_footer_second {
+        width: 60%;
+    }
+    #text_first_div {
+        width: 100%;
+    }
+    #img_first_div {
+        width: 100%;
+    }
+    #boxes_imgs {
+        width: 100%;
+    }
+    .link_button {
+        width: 100%;
+    }
+    .boxes {
+        width: 100%;
+        margin-top: 20px;
+    }
+    #all_boxes {
+        gap: 0px;
+    }
+    #imgs_in_boxes {
+        width: 100%;
+    }
+    .buttons_black_div {
+        width: 100%;
+        gap: 5px;
+    }
+    .button_black_div {
+        font-size: 12px;
+    }
+    .container {
+        max-width: 500px;
+    }
+    .abouts {
+        margin-top: 5px;
+    }
     .container {
         max-width: 500px;
     }
@@ -776,6 +903,76 @@ footer {
 }
 
 @media screen and (max-width:500px) {
+    #div_insights {
+        margin-top: 108px;
+    }
+    .box_in_footer {
+        width: 100%;
+    }
+    .span_for_footer_first {
+        width: 142px;
+    }
+    .cities {
+        line-height: 3em;
+    }
+    .end_of_footer {
+        font-size: 16px;
+    }
+    #links_footer {
+        display: flex;
+        width: 100%;
+        gap: 20px;
+    }
+    .link_footer_second {
+        width: 100%;
+    }
+    .margin {
+        margin-bottom: 18px;
+    }
+    #first_div_under_news {
+        display: flex;
+        margin-top: 29px;
+    }
+    .text_black_div {
+        font-size: 40px;
+    }
+    #span_under_news {
+        margin-top: 90px;
+    }
+    .link_button {
+        width: 90%;
+    }
+    #third_section {
+        height: 420px;
+    }
+    .buttons_black_div {
+        flex-direction: column;
+        width: 100%;
+    }
+    .container {
+        max-width: 300px;
+    }
+    #load_more {
+        height: 100px;
+    }
+    #h3_under_news a {
+        font-size: 28px;
+        font-weight: 500;
+        width: 88%;
+        line-height: 27px;
+    }
+    #text_first_div {
+        padding: 21px 20px 34px;
+    }
+    #all_boxes {
+        gap: 20px;
+    }
+    .abouts {
+        margin-top: 5px;
+    }
+    .abouts_h {
+        font-size: 23px;
+    }
     .container {
         max-width: 300px;
     }
